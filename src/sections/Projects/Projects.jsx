@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/tramando.jpg';
-import freshBurger from '../../assets/fresh-burger.png';
+import blockChain from '../../assets/blockChain.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -17,12 +17,12 @@ function Projects() {
           p="Ticket sales application"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={blockChain}
+          link="https://benjamim-ep.github.io/blockchain-frontend/"
+          h3="BlockChain visualization"
+          p="Application for blockchain visualization"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={hipsster}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Hipsster"
@@ -33,7 +33,7 @@ function Projects() {
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="FitLift"
           p="Fitness App"
-        />
+        /> */}
       </div>
     </section>
   );
